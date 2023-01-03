@@ -12,9 +12,10 @@ If not, continue. Else, checks how many previously bigger numbers from the curre
 After that, inserting the current number in the index found to be the last bigger number. 
 
 ## txtfind
-This is a program that receives a string and text from the standart input and performs one of the following options:
-  a. Printing all the lines in the text in which contains the string. 
-  b. Printing all the words in text which is similar to the string, up to omitting one letter. 
+This is a program that receives a string and text from the standart input and performs one of the following options:  
+    a--> Prints all the lines in the text in which contains the string.  
+    b--> Prints all the words in text which is similar to the string, up to omitting one letter. 
+    
 #### Functionality:
 The text received is in the following form:
 
