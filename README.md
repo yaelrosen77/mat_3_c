@@ -7,8 +7,8 @@ The sorting operation is performed by the _"insertion sort"_ algorithm which has
 For information about _"insertion sort"_ see [Wikipedia insertion sort](https://en.wikipedia.org/wiki/Insertion_sort). 
 #### Functionality:
 While receiving the 50 numbers from the standart input, each of the numbers is saved in the previously initialized array. 
-After that, there is a call to the **insertion_sort** function with the given array. This function iterates each number in array from index 1 to the last one, while checking if it is smaller then the previous number in array. 
-If not, continue. Else, checks how many previously smaller numbers from the current one exists, saving the current one at a temporary variable, and performs a "right indentation" using the **shift_element** function to all smaller numbers. 
+After that, there is a call to the **insertion_sort** function with the given array. This function iterates each number in array from index 1 to the last one, while checking if it is bigger then the previous numbers in array. 
+If not, continue. Else, checks how many previously bigger numbers from the current one exists, saving the current one at a temporary variable, and performs a "right indentation" using the **shift_element** function to all smaller numbers. 
 After that, inserting the current number in the index found to be the last smaller number. 
 
 ## txtfind
